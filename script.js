@@ -1,4 +1,3 @@
-console.log("Hello World")
 
 function project(img, title, desc){
     document.querySelector(".fourthMain").innerHTML = document.querySelector(".fourthMain").innerHTML + `

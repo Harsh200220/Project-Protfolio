@@ -37,8 +37,7 @@ header {
 nav {
     align-items: center;
     width: 85vw;
-    margin: auto;
-    /* border: 2px solid; */
+    margin: auto; 
     justify-content: space-between;
     height: 85px;
 }
@@ -60,8 +59,7 @@ nav ol a:hover {
 
 }
 
-.firstSec {
-    /* border: 2px solid; */
+.firstSec { 
     width: 70vw;
     margin: 50px auto;
     margin-top: 90px;
@@ -69,8 +67,7 @@ nav ol a:hover {
     align-items: center;
 }
 
-.firstInfo {
-    /* border: 2px solid; */
+.firstInfo { 
     display: flex;
     flex-direction: column;
     width: 35vw;
@@ -86,12 +83,10 @@ nav ol a:hover {
 }
 
 .firstImg {
-    border-radius: 100%;
-    /* background-color: rgb(202, 202, 255); */
+    border-radius: 100%; 
 }
 
-.firstImg:hover {
-    /* border: 2px solid; */
+.firstImg:hover { 
     background-color: rgba(73, 73, 73, 0.76);
     filter: drop-shadow(0 0 10px white);
     transition: all 500ms;
@@ -144,8 +139,7 @@ nav ol a:hover {
 
 }
 
-.secondSec>div {
-    /* border: 2px solid; */
+.secondSec>div { 
     width: 70vw;
     margin: auto;
     display: flex;
@@ -172,8 +166,7 @@ nav ol a:hover {
 }
 
 
-.thirdSec {
-    /* border: 2px solid; */
+.thirdSec { 
     margin: 50px auto;
     display: flex;
     flex-direction: column;
@@ -182,8 +175,7 @@ nav ol a:hover {
 
 
 
-.thirdMain {
-    /* border: 2px solid; */
+.thirdMain { 
     width: 70vw;
     margin: auto;
     position: relative;
@@ -252,18 +244,14 @@ nav ol a:hover {
 }
 
 .fourthSec {
-    margin: 80px auto;
-    /* border: 2px solid; */
+    margin: 80px auto; 
 }
 
 
-.fourthMain {
-    /* border: 2px solid; */
-    /* width: auto; */
+.fourthMain { 
     flex-wrap: wrap;
     gap: 85px;
-    padding: 50px 0px;
-    /* margin: auto; */
+    padding: 50px 0px; 
     justify-content: center;
 }
 
@@ -281,8 +269,7 @@ nav ol a:hover {
     border-color: rgb(109, 109, 109);
 }
 
-.fifthSec {
-    /* border: 2px solid; */
+.fifthSec { 
     margin: 80px auto;
 }
 
@@ -294,9 +281,7 @@ nav ol a:hover {
     align-items: center;
     gap: 10px;
     padding: 10px 25px;
-    border-radius: 10px;
-
-    /* background-color: rgba(0, 0, 255, 0.327); */
+    border-radius: 10px; 
 }
 
 .fifthInfo:hover {
@@ -313,8 +298,7 @@ nav ol a:hover {
 
 .fifthInfo img {
     width: 15vw;
-    height: fit-content;
-    /* border: 1px solid; */
+    height: fit-content; 
     border-radius: 20px;
 
 }
@@ -343,10 +327,7 @@ footer {
 footer ol {
     list-style: none;
     display: flex;
-    gap: 35px;
-    /* flex-direction: column; */
-
-
+    gap: 35px; 
 }
 
 footer ol li a {
@@ -393,12 +374,8 @@ footer h3 {
     margin: 50px auto;
 }
 
-.logo {
-    /* display: flex; */
-    /* font-weight: 900; */
-    font-size: 35px;
-    /* justify-content: center;
-    margin: 50px auto; */
+.logo { 
+    font-size: 35px; 
 }
 
 #element {
@@ -460,8 +437,7 @@ footer h3 {
 
     nav ol {
         position: absolute;
-        right: 1500px;
-        /* right: 20px; */
+        right: 1500px; 
         flex-direction: column;
         gap: 30px;
         border: 1px solid;
@@ -625,8 +601,5 @@ footer h3 {
     footer h3 {
         font-size: 12px;
 
-    }
-
-
-
+    } 
 }
