@@ -6,11 +6,11 @@
     font-family: poppins;
 }
 
-.invert{
+.invert {
     filter: invert();
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
@@ -97,7 +97,7 @@ nav ol a:hover {
     transition: all 500ms;
 }
 
-.whatsapp{
+.whatsapp {
     border-bottom-left-radius: 0%;
 }
 
@@ -236,6 +236,7 @@ nav ol a:hover {
 .ballOne {
     top: 110px;
 }
+
 .ballTwo {
     top: 315px;
 }
@@ -324,7 +325,8 @@ nav ol a:hover {
     gap: 50px;
 }
 
-footer , footer *{
+footer,
+footer * {
 
     background-color: rgb(0, 0, 26);
 
@@ -354,7 +356,7 @@ footer ol li a {
 
 }
 
-footer ol li{
+footer ol li {
     display: flex;
     font-size: 14px;
 
@@ -378,7 +380,7 @@ footer ol img {
 
 }
 
-footer h3{
+footer h3 {
     font-size: 15px;
 }
 
@@ -452,6 +454,10 @@ footer h3{
         cursor: pointer;
     }
 
+    nav{
+        width: 90vw;
+    }
+
     nav ol {
         position: absolute;
         right: 1500px;
@@ -475,27 +481,30 @@ footer h3{
         justify-content: space-evenly;
     }
 
-    
-footer ol {
-    flex-direction: column;
-    gap: 20px;
-}
-footer ol li img {
-    width: 18px;
-}
+
+    footer ol {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    footer ol li img {
+        width: 18px;
+    }
 }
 
 @media (max-width: 1100px) {
-    .secondSec>div{
+    .secondSec>div {
         width: 80vw;
     }
-    .thirdMain{
+
+    .thirdMain {
         width: 80vw;
     }
+
     .thirdLine {
         left: 40vw;
     }
-    
+
 }
 
 @media (max-width: 920px) {
