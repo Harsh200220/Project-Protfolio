@@ -1,0 +1,623 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(0, 0, 49);
+    color: white;
+    font-family: poppins;
+}
+
+.invert{
+    filter: invert();
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.flex {
+    display: flex;
+}
+
+.flexCol {
+    display: flex;
+    flex-direction: column;
+}
+
+.invert {
+    filter: invert(1);
+}
+
+header {
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+    width: 100vw;
+}
+
+nav {
+    align-items: center;
+    width: 85vw;
+    margin: auto;
+    /* border: 2px solid; */
+    justify-content: space-between;
+    height: 85px;
+}
+
+nav ol {
+    list-style: none;
+    gap: 22px;
+}
+
+nav ol a {
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ol a:hover {
+    cursor: pointer;
+    color: rgb(192, 192, 192);
+    transition: all 500ms;
+
+}
+
+.firstSec {
+    /* border: 2px solid; */
+    width: 70vw;
+    margin: 50px auto;
+    margin-top: 90px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.firstInfo {
+    /* border: 2px solid; */
+    display: flex;
+    flex-direction: column;
+    width: 35vw;
+    padding: 115px 0px;
+    gap: 15px;
+
+
+}
+
+.firstInfo>ol {
+    list-style: none;
+    gap: 10px;
+}
+
+.firstImg {
+    border-radius: 100%;
+    /* background-color: rgb(202, 202, 255); */
+}
+
+.firstImg:hover {
+    /* border: 2px solid; */
+    background-color: rgba(73, 73, 73, 0.76);
+    filter: drop-shadow(0 0 10px white);
+    transition: all 500ms;
+}
+
+.whatsapp{
+    border-bottom-left-radius: 0%;
+}
+
+.firstBtn {
+    padding: 10px 20px;
+    border: 1px solid;
+    border-radius: 50px;
+    font-size: 15px;
+    text-decoration: none;
+    background-color: rgba(255, 247, 247, 0.226);
+    border-color: rgb(91, 91, 91);
+}
+
+.firstBtn:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    transition: all 500ms;
+    filter: drop-shadow(0 0 10px white);
+}
+
+.firstInfo ol img {
+    width: 40px;
+}
+
+
+.ProfilePic {
+    width: 300px;
+    height: 300px;
+    contain: content;
+    border: 1px solid;
+    border-radius: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+
+.ProfilePic:hover {
+    filter: drop-shadow(0 0 20px rgb(240, 240, 255));
+    transition: all 200ms;
+}
+
+.secondSec {
+    margin: 50px auto;
+
+}
+
+.secondSec>div {
+    /* border: 2px solid; */
+    width: 70vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.secondSec>div div {
+    border: 2px solid rgb(202, 202, 202);
+    width: 21vw;
+    margin: 25px 0px;
+    padding: 37px 70px;
+    border-radius: 107px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+}
+
+.secondSec>div div:hover {
+
+    filter: drop-shadow(0 0 20px white);
+    transition: all 200ms;
+}
+
+
+.thirdSec {
+    /* border: 2px solid; */
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
+.thirdMain {
+    /* border: 2px solid; */
+    width: 70vw;
+    margin: auto;
+    position: relative;
+}
+
+.thirdCommon {
+    border: 2px solid rgb(202, 202, 202);
+    width: 21vw;
+    margin: 25px 0px;
+    padding: 37px 70px;
+    border-radius: 107px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.thirdCommon:hover {
+    filter: drop-shadow(0 0 20px white);
+    transition: all 200ms;
+}
+
+
+.thirdCommon div {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+}
+
+
+.thirdLine {
+    border: 2px solid;
+    width: 0px;
+    height: 100%;
+    position: absolute;
+    left: 35vw;
+
+}
+
+.ball {
+    border: 2px solid;
+    height: 12px;
+    width: 12px;
+    border-radius: 100%;
+    background-color: white;
+    position: absolute;
+    right: -8px;
+}
+
+.ballOne {
+    top: 110px;
+}
+.ballTwo {
+    top: 315px;
+}
+
+.ballThree {
+    bottom: 125px;
+}
+
+
+.thirdRight {
+    position: relative;
+    left: 57%;
+}
+
+.fourthSec {
+    margin: 80px auto;
+    /* border: 2px solid; */
+}
+
+
+.fourthMain {
+    /* border: 2px solid; */
+    /* width: auto; */
+    flex-wrap: wrap;
+    gap: 85px;
+    padding: 50px 0px;
+    /* margin: auto; */
+    justify-content: center;
+}
+
+.fourthMain div {
+    width: 200px;
+    border: 2px solid rgb(202, 202, 202);
+    padding: 25px;
+    border-radius: 15px;
+    gap: 15px;
+}
+
+.fourthMain div:hover {
+    filter: drop-shadow(0 0 20px white);
+    transition: all 200ms;
+    border-color: rgb(109, 109, 109);
+}
+
+.fifthSec {
+    /* border: 2px solid; */
+    margin: 80px auto;
+}
+
+.fifthInfo {
+    border: 2px solid rgb(202, 202, 202);
+    width: 60vw;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 25px;
+    border-radius: 10px;
+
+    /* background-color: rgba(0, 0, 255, 0.327); */
+}
+
+.fifthInfo:hover {
+    filter: drop-shadow(0 0 20px rgba(255, 255, 255, 0.56));
+    border-color: rgb(201, 201, 255);
+    transition: all 200ms;
+}
+
+
+
+.fifthInfo h2 {
+    margin: 12px 0px;
+}
+
+.fifthInfo img {
+    width: 15vw;
+    height: fit-content;
+    /* border: 1px solid; */
+    border-radius: 20px;
+
+}
+
+.fifthMain {
+    padding: 50px 0px;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+footer , footer *{
+
+    background-color: rgb(0, 0, 26);
+
+}
+
+footer {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 25px 0px;
+}
+
+footer ol {
+    list-style: none;
+    display: flex;
+    gap: 35px;
+    /* flex-direction: column; */
+
+
+}
+
+footer ol li a {
+    text-decoration: none;
+    display: flex;
+    gap: 5px;
+
+}
+
+footer ol li{
+    display: flex;
+    font-size: 14px;
+
+}
+
+footer ol img {
+    width: 15px;
+    background-color: rgb(0, 0, 26);
+    border: 0px 5px;
+}
+
+.footer ol img:hover {
+    background-color: rgba(73, 73, 73, 0.76);
+    filter: drop-shadow(0 0 10px white);
+    transition: all 500ms;
+}
+
+.copyright {
+    width: 15px;
+    margin: 0px 5px;
+
+}
+
+footer h3{
+    font-size: 15px;
+}
+
+
+
+.heading {
+    display: flex;
+    font-size: 45px;
+    justify-content: center;
+    margin: 50px auto;
+}
+
+.logo {
+    /* display: flex; */
+    /* font-weight: 900; */
+    font-size: 35px;
+    /* justify-content: center;
+    margin: 50px auto; */
+}
+
+#element {
+    color: violet;
+
+}
+
+.portfolio {
+    color: violet;
+
+}
+
+#burger {
+    display: none;
+}
+
+.close {
+    display: none;
+}
+
+.navRight {
+    transition: all 900ms;
+}
+
+@media (max-width: 1206px) {
+
+
+
+    #burger {
+        display: block;
+        margin: 0px 25px;
+        cursor: pointer;
+
+    }
+
+
+    .close {
+        display: block;
+        width: 22px;
+        position: absolute;
+        border-radius: 100%;
+        right: 0px;
+        top: 0px;
+        padding: 10px;
+
+
+    }
+
+    .close:hover {
+        background-color: rgb(140, 140, 140);
+        filter: drop-shadow(0 0 10px white);
+        transition: all 500ms;
+        cursor: pointer;
+    }
+
+    nav ol {
+        position: absolute;
+        right: 1500px;
+        /* right: 20px; */
+        flex-direction: column;
+        gap: 30px;
+        border: 1px solid;
+        padding: 30px 60px;
+
+
+    }
+
+    .ProfilePic {
+
+        width: 300px;
+        height: 300px;
+
+    }
+
+    .fourthMain {
+        justify-content: space-evenly;
+    }
+
+    
+footer ol {
+    flex-direction: column;
+    gap: 20px;
+}
+footer ol li img {
+    width: 18px;
+}
+}
+
+@media (max-width: 1100px) {
+    .secondSec>div{
+        width: 80vw;
+    }
+    .thirdMain{
+        width: 80vw;
+    }
+    .thirdLine {
+        left: 40vw;
+    }
+    
+}
+
+@media (max-width: 920px) {
+    .firstSec {
+        flex-direction: column-reverse;
+        width: 100vw;
+        margin-top: 110px;
+    }
+
+    .firstInfo {
+        padding: 60px 0px;
+
+    }
+
+    .ProfilePic {
+
+        width: 400px;
+        height: 400px;
+
+
+    }
+
+    .firstInfo {
+        width: 80vw;
+    }
+
+    .secondSec>div {
+        flex-direction: column;
+    }
+
+    .secondSec>div div {
+        width: 50vw;
+    }
+
+    .thirdLine {
+        left: 0px;
+    }
+
+    .thirdCommon {
+        position: static;
+        width: 50vw;
+        margin: 25px 20px;
+    }
+
+    .fifthInfo {
+        width: 80vw;
+        padding: 23px 25px
+    }
+
+    .fourthMain {
+        justify-content: space-evenly;
+    }
+}
+
+
+@media (max-width: 910px) {
+    .fourthMain div {
+        width: 360px;
+        gap: 15px;
+        padding: 42px;
+    }
+
+    .heading {
+        font-size: 38px;
+    }
+}
+
+@media (max-width: 440px) {
+
+    .logo {
+        font-size: 25px;
+    }
+
+    .ProfilePic {
+        width: 250px;
+        height: 250px;
+    }
+
+    .secondSec>div {
+        width: 86vw;
+    }
+
+    .thirdMain {
+        width: 90vw;
+    }
+
+    .fourthMain div {
+        width: 262px;
+        gap: 16px;
+        padding: 30px;
+    }
+
+    .heading {
+        font-size: 28px;
+        margin: 22px 0px;
+    }
+
+    .fifthOdd {
+        flex-direction: column;
+    }
+
+    .fifthEven {
+        flex-direction: column-reverse;
+    }
+
+    .fifthInfo img {
+        width: 85vw;
+    }
+
+    .firstSec {
+        margin-bottom: 0px;
+    }
+
+    .copyright {
+        width: 10px;
+    }
+
+    footer h3 {
+        font-size: 12px;
+
+    }
+
+
+
+}
