@@ -77,6 +77,10 @@ nav ol a:hover {
 
 }
 
+.firstInfo h2{
+    font-size: 18px;
+}
+
 .firstInfo>ol {
     list-style: none;
     gap: 10px;
@@ -320,7 +324,7 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 10px;
     padding: 25px 0px;
 }
 
@@ -460,7 +464,11 @@ footer h3 {
 
     footer ol {
         flex-direction: column;
-        gap: 20px;
+        gap: 10px;
+        padding: 0px 34px;
+    }
+    footer ol li a{
+        font-size: 12px;
     }
 
     footer ol li img {
@@ -574,7 +582,7 @@ footer h3 {
     }
 
     .heading {
-        font-size: 28px;
+        font-size: 24px;
         margin: 22px 0px;
     }
 
